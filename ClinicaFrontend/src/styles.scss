@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* SCSS Auth*/
+@import "./assets/scss/auth/login";
+
+/* SCSS Shared*/
+@import "./assets/scss/shared/form";
+html, body { height: 100%; }
+body { margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    min-height: 100vh;
+    background: #e2e2e2;
+}
+
+/* Material Theme */
+@import "./assets/scss/theme/materialtheme.scss";
